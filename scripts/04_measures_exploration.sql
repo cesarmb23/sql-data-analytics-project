@@ -1,10 +1,15 @@
 /*
 ===============================================================================
-Measures Exploration (Key Metrics)
+Measures Exploration (Big Numbers)
 ===============================================================================
 Purpose:
+    - Calculate the key metric of the business (Big Numbers)
+    - Highest Level of Aggregation | Lowest Level of Details
     - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
     - To identify overall trends or spot anomalies.
+
+Formula:
+    - Any aggregate formula [Measure]    e.g COUNT(sales_amount); AVG(price)
 
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
