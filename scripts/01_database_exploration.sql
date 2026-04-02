@@ -17,8 +17,9 @@ Table Used:
 SELECT * 
 FROM INFORMATION_SCHEMA.TABLES;
 
--- Retrieve all columns for a specific table (dim_customers)
+-- Retrieve all columns
 
 SELECT * 
 FROM INFORMATION_SCHEMA.COLUMNS
+-- To receive the columns for a specifc table (dim_customers)
 WHERE TABLE_NAME = 'dim_customers';
