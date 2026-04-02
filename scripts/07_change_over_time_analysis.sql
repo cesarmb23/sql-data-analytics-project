@@ -1,11 +1,15 @@
 /*
 ===============================================================================
-Change Over Time Analysis
+Change Over Time Analysis (Trends)
 ===============================================================================
 Purpose:
-    - To track trends, growth, and changes in key metrics over time.
-    - For time-series analysis and identifying seasonality.
+    - Analyze how a measure evolves over time. 
+    - Helps track trends, time-series analysis and identify seasonality in your data.
     - To measure growth or decline over specific periods.
+
+Formula:
+	- Aggregate[Measure] By [Date Dimension]
+	- Ex: SUM(Sales) By Year | AVG(cost) By Month 
 
 SQL Functions Used:
     - Date Functions: DATEPART(), DATETRUNC(), FORMAT()
