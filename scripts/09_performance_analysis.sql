@@ -1,11 +1,14 @@
 /*
 ===============================================================================
-Performance Analysis (Year-over-Year, Month-over-Month)
+Performance Analysis
 ===============================================================================
 Purpose:
-    - To measure the performance of products, customers, or regions over time.
-    - For benchmarking and identifying high-performing entities.
-    - To track yearly trends and growth.
+    - Comparing the current value to a target value.
+	- Helps measure success and compare performance.
+
+Formula:
+	- Current[Measure] - Target[Measure] | PUEDE SER RESTA, DIVISIÓN, CASE según lo que quiera responder
+	- Ex: Current Sales - AVG Sales | Current Year Sales - Previous Year Sales
 
 SQL Functions Used:
     - LAG(): Accesses data from previous rows.
