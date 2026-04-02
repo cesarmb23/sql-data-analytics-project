@@ -3,8 +3,12 @@
 Data Segmentation Analysis
 ===============================================================================
 Purpose:
-    - To group data into meaningful categories for targeted insights.
-    - For customer segmentation, product categorization, or regional analysis.
+    - Group the data based on a specific range.
+	- Helps understand the correlation between two measures.
+
+Formula:
+	- [Measure] By [Measure]
+	- Ex: Sum(Products) By Sales Range | SUM(customers) By Age 
 
 SQL Functions Used:
     - CASE: Defines custom segmentation logic.
