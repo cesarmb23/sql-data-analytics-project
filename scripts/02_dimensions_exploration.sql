@@ -4,6 +4,9 @@ Dimensions Exploration
 ===============================================================================
 Purpose:
     - To explore the structure of dimension tables.
+
+Formula:
+	- DISTINCT[Dimension] e.g. Country, Category, Product
 	
 SQL Functions Used:
     - DISTINCT
@@ -19,7 +22,7 @@ FROM gold.dim_customers;
 -- Retrieve a list of unique categories, subcategories, and products
 
 SELECT DISTINCT
-	  category, 
+	category, 
     subcategory, 
     product_name 
 FROM gold.dim_products 
