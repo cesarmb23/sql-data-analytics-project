@@ -1,11 +1,14 @@
 /*
 ===============================================================================
-Part-to-Whole Analysis
+Part-to-Whole Analysis (Proportional Analysis)
 ===============================================================================
 Purpose:
-    - To compare performance or metrics across dimensions or time periods.
-    - To evaluate differences between categories.
-    - Useful for A/B testing or regional comparisons.
+    - Analyze how an individual part is performing compared to the overall
+	- Allowing us to understand which category has the greatest impact on the business. 
+
+Formula:
+	- ([Measure] / Total[Measure]) * 100 By [Dimension]
+	- Ex: (Sales / SUM(sales)) * 100 By Category | (Quantity / SUM(Quantity)) * 100 By Country
 
 SQL Functions Used:
     - SUM(), AVG(): Aggregates values for comparison.
