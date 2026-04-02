@@ -3,7 +3,8 @@
 Dimensions Exploration
 ===============================================================================
 Purpose:
-    - To explore the structure of dimension tables.
+    - Identifying the unique values (or categories) in each dimension.
+	- Recognizing how data might be grouped or segmented, which is useful for later analysis.
 
 Formula:
 	- DISTINCT[Dimension] e.g. Country, Category, Product
