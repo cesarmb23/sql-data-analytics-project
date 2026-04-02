@@ -3,8 +3,11 @@
 Date Range Exploration 
 ===============================================================================
 Purpose:
-    - To determine the temporal boundaries of key data points.
-    - To understand the range of historical data.
+    - Identify the earliest and latest dates (boundaries) of key data points.
+    - To understand the scope of data and the timespan.
+
+Formula:
+	- MIN/MAX[Date Dimension]	
 
 SQL Functions Used:
     - MIN(), MAX(), TIMESTAMPDIFF()
