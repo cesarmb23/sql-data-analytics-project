@@ -3,8 +3,14 @@
 Magnitude Analysis
 ===============================================================================
 Purpose:
+    - Compare the measure values by categories. 
+    - It helps us understand the importance of different categories. 
     - To quantify data and group results by specific dimensions.
     - For understanding data distribution across categories.
+
+Formula:
+    - Aggregate function[Measure] By [Dimension]
+    - Ex: AVG(price) by Product | SUM(sales) by Country
 
 SQL Functions Used:
     - Aggregate Functions: SUM(), COUNT(), AVG()
